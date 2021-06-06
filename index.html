@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atv3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>TABUADA</h1>
+    </header>
+    <section>
+        <div id="dados">
+                <label for="numero">
+                   Valor De:<input type="number" name="numero" id="num">
+                </label>
+                <label for="numero">
+                    Ate:<input type="number" name="numero" id="num2">
+                </label><br>
+                <div id="botao">
+                Escolha o Operador: <input type="button" value="+" onclick="adicao()">
+                <input type="button" value="-" onclick="subitrair()">
+                <input type="button" value="/" onclick="divisao()">
+                <input type="button" value="x" onclick="multiplicacao()">  
+                </div>   
+        </div>
+        <div id="prin">
+            <div>
+            <select name="tabuada" id="tabu1" size="11">
+                        <option >Selecione  [+]</option>
+                        
+            </select>
+
+            <select name="tabuada" id="tabu2" size="11">
+                        <option >Selecione  [-]</option>
+            </select>
+            </div>
+            <div>
+                <select name="tabuada" id="tabu3" size="11">
+                    <option >Selecione [/]</option>
+                </select>
+                <select name="tabuada" id="tabu4" size="11">
+                    <option >Selecione  [x]</option>
+                </select>
+            </div>
+        </div>    
+    </section>
+    
+    <footer>
+        <p>&copy;copyrigth</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

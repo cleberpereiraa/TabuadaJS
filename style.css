@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(65, 65, 221);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    text-align: center;
+    color: white;
+}
+footer{
+    text-align: center;
+    color: white;
+}
+section{
+    margin: auto;
+    padding: 15px;
+    background-color: white;
+    width: 450px;
+    border-radius: 15px;
+}
+#dados{
+    margin-bottom: 10px;
+    text-align: center;
+}
+#prin{
+    text-align: center;
+}
+#num{
+    width: 50px;
+    
+}
+#num2{
+    width: 50px;
+}
+
+#tabu1{
+    width: 200px;
+    text-align: center;
+}
+#tabu2{
+    width: 200px;
+    text-align: center;
+}
+#tabu3{
+    width: 200px;
+    text-align: center;
+}
+#tabu4{
+    width: 200px;
+    text-align: center;
+}
+#botao{
+    margin-top: 5px;
+}
